@@ -5,7 +5,7 @@ The URL to File Type extension allows you to generate PDF/DOCX files for a whole
 ## Installation
 
 1. Upload the `urltofiletype` folder to your Symphony `/extensions` folder.
-2. Enable it by selecting the "URL to PDF" from the Symphony extensions page, choose "Enable/Install" from the "With Selected..." menu, then click Apply.
+2. Enable it by selecting the "URL to File Type" from the Symphony extensions page, choose "Enable/Install" from the "With Selected..." menu, then click Apply.
 3. You can now add the page type of `pdf` or `docx` to your pages
 
 Usage
