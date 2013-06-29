@@ -1,23 +1,20 @@
-# URL to PDF
+# URL to File Type
 
-The URL to PDF extension allows you to generate PDF files for a whole or subset of your Symphony page.
-
-- Version: 0.1
-- Date: 13th July 2011
-- Requirements: Symphony 2.2 or newer, <http://github.com/symphonycms/symphony-2/>
-- Author: Brendan Abbott, brendan@bloodbone.ws
-- GitHub Repository: <http://github.com/brendo/urltopdf>
+The URL to File Type extension allows you to generate PDF/DOCX files for a whole or subset of your Symphony page.
 
 ## Installation
 
-1. Upload the `urltopdf` folder to your Symphony `/extensions` folder.
+1. Upload the `urltofiletype` folder to your Symphony `/extensions` folder.
 2. Enable it by selecting the "URL to PDF" from the Symphony extensions page, choose "Enable/Install" from the "With Selected..." menu, then click Apply.
-3. You can now add the page type of `pdf` or `pdf-attachment` to your pages
+3. You can now add the page type of `pdf` or `docx` to your pages
 
-## Usage
+Usage
 
-Please refer to the [wiki](https://github.com/brendo/urltopdf/wiki) for how to use URL to PDF and for further information.
+either by navigating to frontend page that has the pagetype attached to it you can either view it or by appending `?download=pdf` to the end of the url
+you can receive a download in the form of the pdf from the actual page
 
-## Issues
+there are other options such as 
 
-This extension is relatively untested at the moment so there will be likely be bugs. Please report them as you find them on the [issue tracker](https://github.com/brendo/urltopdf/issues)
+`<a href="{$root}/page-name/?download=pdf">Download PDF</a>`
+
+this also applies to the same of `docx` as the pagetype
